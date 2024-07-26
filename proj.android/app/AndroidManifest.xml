@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gusdk.demo.app"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+    <uses-feature android:glEsVersion="0x00020000" />
+    
+    <application
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:networkSecurityConfig="@xml/network_security"
+        >
+        
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data android:name="android.app.lib_name"
+                   android:value="MyGame" />
+
+        <activity
+            android:name="org.cocos2dx.cpp.AppActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:exported = "true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2687326720221638~1041592732" />
+        <!-- applovin -->
+        <meta-data
+            android:name="com.ironsource.appkey"
+            android:value="14dd3dce1" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="BLZ3nWD4mwe_7TFhC7kqaUqZMz32l9nxVL-GtCKc6-cEWsxizeXT8L7UJAX2KJ-qey4W9P7FNkUvaPcT295AUD" />
+        <!-- 如果使用max 聚合，请添加Google ad manager 配置-->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,277 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/2d/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/3d/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/ui/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/math/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/base/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/extensions/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/audio/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/uv/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/md5/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/png/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/physics/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/navmesh/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/network/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/jpeg/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/webp/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/curl/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/zlib/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/platform/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/renderer/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/Box2D/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/xxtea/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/unzip/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/physics3d/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/recast/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/bullet/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/xxhash/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/openssl/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/clipper/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/chipmunk/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/tinyxml2/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/poly2tri/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/freetype2/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/websockets/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/edtaa3func/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/ConvertUTF/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/platform/android/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/cocos/editor-support/cocostudio/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/android-specific/tremolo/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/android-specific/pvmp3dec/CMakeLists.txt",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/cocos2d/external/android-specific/cpufeatures/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ext_md5-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_md5"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_md5",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_md5.a"
+    },
+    "ext_xxhash-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_xxhash"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_xxhash",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_xxhash.a"
+    },
+    "ext_tremolo-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_tremolo"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_tremolo",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_tremolo.a"
+    },
+    "ext_clipper-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_clipper"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_clipper",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_clipper.a"
+    },
+    "ext_recast-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_recast"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_recast",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_recast.a"
+    },
+    "ext_convertUTF-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_convertUTF"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_convertUTF",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_convertUTF.a"
+    },
+    "ext_poly2tri-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_poly2tri"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_poly2tri",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_poly2tri.a"
+    },
+    "ext_tinyxml2-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_tinyxml2"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_tinyxml2",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_tinyxml2.a"
+    },
+    "cpp_android_spec-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "cpp_android_spec"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "cpp_android_spec",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/cocos/platform/libcpp_android_spec.a"
+    },
+    "cocos2d-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "cocos2d"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "cocos2d",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libcocos2d.a"
+    },
+    "MyGame-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "MyGame"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "MyGame",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libMyGame.so",
+      "runtimeFiles": []
+    },
+    "ext_unzip-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_unzip"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_unzip",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_unzip.a"
+    },
+    "ext_xxtea-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_xxtea"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_xxtea",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_xxtea.a"
+    },
+    "external-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "external"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "external",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libexternal.a"
+    },
+    "ext_edtaa3func-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_edtaa3func"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_edtaa3func",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_edtaa3func.a"
+    },
+    "ext_cpufeatures-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_cpufeatures"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_cpufeatures",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/external/android-specific/cpufeatures/libext_cpufeatures.a"
+    },
+    "ext_pvmp3dec-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "ext_pvmp3dec"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "ext_pvmp3dec",
+      "output": "/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libext_pvmp3dec.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

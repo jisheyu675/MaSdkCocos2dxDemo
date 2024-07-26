@@ -1,0 +1,7 @@
+Executable : /Users/gamehaus/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/.cxx/cmake/debug/armeabi-v7a
+MyGame
+jvmArgs : 
+

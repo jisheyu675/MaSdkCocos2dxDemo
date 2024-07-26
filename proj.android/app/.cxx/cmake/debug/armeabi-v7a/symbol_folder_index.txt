@@ -1,0 +1,1 @@
+/Users/gamehaus/Documents/cocos/project/mssdkTest/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a
